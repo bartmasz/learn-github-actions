@@ -25,3 +25,4 @@ jobs:
         with:
           comment: "true" # enable comment mode
           yaml_schema: schemas/schema.yml # validate YAML files against the schema
+          files: project_definition.yml

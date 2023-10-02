@@ -1,0 +1,15 @@
+person:
+  name:
+    first_name:
+      type: string
+      length: # define min and max length (optional)
+        min: 2
+        max: 10
+  age:
+    type: number
+    required: true # make this field required (optional)
+  employed:
+    type: boolean
+  hobbies:
+  - type: string
+    enum: [football, basketball, tennis] # only accept these values (optional)
